@@ -2,7 +2,7 @@
 A graph algorithm visualizer made in Js
 # Algorithm Implemented
 
--Dijkstra
+-Dijkstra <br>
 -Kruskal
 
 # Feature 
@@ -12,4 +12,4 @@ A graph algorithm visualizer made in Js
 -Add Undirected Edges
 -Move Vertex
 
-#Screenshots
+# Screenshots
