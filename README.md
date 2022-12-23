@@ -6,10 +6,10 @@ A graph algorithm visualizer made in Js
 -Kruskal
 
 # Feature 
--Create a new Graph
--Add a Vertex 
--Add Directed Edges
--Add Undirected Edges
+-Create a new Graph <br>
+-Add a Vertex     <br>
+-Add Directed Edges  <br>
+-Add Undirected Edges <br>
 -Move Vertex
 
 # Screenshots
