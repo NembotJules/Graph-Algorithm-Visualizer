@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Theory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/presentation.css">
+</head>
+<body> 
+    <header>
+        <h2>Graph Project</h2>
+         <audio id="audio" src=""> </audio>
+         <div id="music-controls">
+           <button  id="prev" ><i class="fa-solid fa-caret-left" ></i> </button> 
+            <button id="play"><i class="fa-solid fa-play" ></i> </button>
+           <button  id="next" > <i class="fa-solid fa-caret-right" ></i> </button>
+           <button  id="volume"> <i class="fa-solid fa-volume-high" ></i></button> 
+           <input type="range" id="volumeSetter" min="0" max="1" step="0.01">
+         </div>
+        
+    </header>
+    <div id="container">
+        <div id="particles-js">
+            <div id="text-container">
+                <h1 id="text">Hi! Welcome to my graph algorithm project</h1>
+                <button id="link" onclick="window.location.href = 'index.html'  " > LET'S GO</button>
+            </div>
+          
+         
+        </div>
+
+    </div>
+      
+
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="music.js"></script>
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed('#text', {
+    strings: [ "Hi!", " Hi! Welcome to my graph algorithm project", ],
+   typeSpeed: 50, 
+   backSpeed: 60, 
+   fadeOut: true, 
+   loop: false
+});
+
+    </script>
+    
+          
+    
+</body>
+</html>

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+   
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+h2 {
+    padding-left: 30px; 
+   
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#music-controls {
+  margin-right: 50px; 
+  padding-left: 50px;
+}
+
+audio {
+    color: white; 
+}
+
+button {
+    border: none;
+    background-color: black;
+    padding: 30px;
+}
+
+i {
+    color: white; 
+    font-size: 20px;
+    cursor: pointer; 
+    
+}
+
+#particles-js {
+   position: relative;
+}
+
+#text-container {
+    position: absolute;
+    left: 53%; 
+    top: 38%; 
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    width: 900px;
+    
+}
+
+h1 {
+    font-size: 70px;
+    padding-top: 0; 
+    font-weight: bold;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+#link {
+    color: #fff; 
+    background-color: black;
+    text-decoration: none;
+    padding: 20px 60px; 
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 310px; 
+    opacity: 0;
+    transition: all 1s;
+    
+   
+    
+}
+
+#link:hover {
+    transform: scale(1.5);
+}
+
+
+input[type =range] {
+    cursor: pointer;
+    animation:0.2s;
+    
+}
