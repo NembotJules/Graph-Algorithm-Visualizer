@@ -1,11 +1,11 @@
 # Graph-Algorithm-Visualizer
 A graph algorithm visualizer made in Js
-#Algorithm Implemented
+# Algorithm Implemented
 
 -Dijkstra
 -Kruskal
 
-#Feature 
+# Feature 
 -Create a new Graph
 -Add a Vertex 
 -Add Directed Edges
