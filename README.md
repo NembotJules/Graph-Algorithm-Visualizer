@@ -1,5 +1,6 @@
 # Graph-Algorithm-Visualizer
-A graph algorithm visualizer made in Js
+A graph algorithm visualizer made in Js <br>
+You can play with it here : https://nembotjules.github.io/Graph-Algorithm-Visualizer/
 # Algorithm Implemented
 
 -Dijkstra <br>
