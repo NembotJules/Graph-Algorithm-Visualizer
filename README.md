@@ -13,3 +13,4 @@ A graph algorithm visualizer made in Js
 -Move Vertex
 
 # Screenshots
+<img src="https://github.com/NembotJules/Graph-Algorithm-Visualizer/blob/main/Capture%20d%E2%80%99%C3%A9cran%202022-12-23%20065428.png">
